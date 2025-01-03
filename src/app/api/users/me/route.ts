@@ -9,8 +9,8 @@ export async function GET(req:NextRequest){
         const userId = await getTokenData(req);
         const user = await UserModel.findOne({
             _id: userId
-        },{
-            _id:0,
+        },
+        {
             password:0,
             isAdmin:0,
             __v:0

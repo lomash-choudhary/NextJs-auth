@@ -13,6 +13,7 @@
     "@types/jsonwebtoken": "^9.0.7",
     "@types/mongoose": "^5.11.97",
     "@types/nodemailer": "^6.4.17",
+    "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.3",
@@ -20,6 +21,8 @@
     "nodemailer": "^6.9.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-toastify": "^11.0.2",
     "zod": "^3.24.1"
   },
   "devDependencies": {
